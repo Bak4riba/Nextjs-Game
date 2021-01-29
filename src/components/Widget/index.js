@@ -1,12 +1,10 @@
 import styled from 'styled-components';
-//Widget Componente Base
+// Widget Componente Base
 const Widget = styled.div`
   margin-top: 24px;
   margin-bottom: 24px;
   border: 1px solid ${({ theme }) => theme.colors.primary};
-  background-color: ${({ theme }) => {
-    return theme.colors.mainBg;
-  }};
+  background-color: ${({ theme }) => theme.colors.mainBg};
   border-radius: 4px;
   overflow: hidden;
   h1,
@@ -24,7 +22,7 @@ const Widget = styled.div`
   }
 `;
 
-//Header
+// Header
 Widget.Header = styled.header`
   display: flex;
   justify-content: flex-start;
@@ -37,7 +35,7 @@ Widget.Header = styled.header`
   }
 `;
 
-//Content
+// Content
 Widget.Content = styled.div`
   padding: 24px 32px 32px 32px;
   & > *:first-child {
