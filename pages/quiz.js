@@ -8,6 +8,7 @@ import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import Button from '../src/components/Button';
 import QuizContainer from '../src/components/QuizContainer';
+import AlternativesForm from '../src/components/AlternativesForm';
 
 function ResultWidget({ results }) {
   return (
@@ -91,7 +92,7 @@ function QuestionWidget({
       <Widget.Content>
         <h2>{question.title}</h2>
         <p>{question.description}</p>
-        <form onSubmit={(e) => {
+        <AlternativesForm onSubmit={(e) => {
           e.preventDefault();
           setIsSubmited(true);
           setTimeout(() => {
@@ -104,14 +105,18 @@ function QuestionWidget({
         >
           {question.alternatives.map((alternativa, alternativaIndex) => {
             const alternativaId = `alternative__${alternativaIndex}`;
+            const alternativeStatus = isCorrect ? 'SUCCESS' : 'ERROR';
+            const isSelected = selectedAlt === alternativaIndex;
             return (
               <Widget.Topic
                 key={alternativaId}
                 as="label"
                 htmlFor={alternativaId}
+                data-selected={isSelected}
+                data-status={isSubmited && alternativeStatus}
               >
                 <input
-                  /* style={{ display: 'none' }} */
+                  style={{ display: 'none' }}
                   id={alternativaId}
                   type="radio"
                   name={questionId}
@@ -128,7 +133,7 @@ function QuestionWidget({
           </Button>
           {isSubmited && isCorrect && <p>Parabéns voce acertou!!</p>}
           {isSubmited && !isCorrect && <p>Poxa vida!! Você errou!</p>}
-        </form>
+        </AlternativesForm>
       </Widget.Content>
     </Widget>
   );
