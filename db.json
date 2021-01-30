@@ -4,30 +4,132 @@
   "description": "Testes seus conhecimentos e mostre que você é um verdadeiro cidadão de Konoha!",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
-      "alternatives": [".elemento", "*elemento", "#elemento", "%elemento"]
+      "image": "https://media.giphy.com/media/3ohc12SgufM9qbR4Na/giphy.gif",
+      "title": "De quem era a Jinchuuriki das 9 caudas antes do Naruto?",
+      "description": "De quem ein?",
+      "answer": 3,
+      "alternatives": ["Anko", "Kaguya", "Madara", "Kushina"]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://img.quizur.com/f/img5eca0ce39b0de8.51257001.jpg?lastEdited=1590299881",
+      "title": "Qual desses não são invocáveis?",
+      "description": "Kuchiyose no Jutsu!!",
       "answer": 0,
       "alternatives": [
-        "background: linear-gradient(#e66465, #9198e5);",
-        "background: gradient(#e66465, #9198e5);"
+        "Akamaru",
+        "Gamaken",
+        "Pakkun",
+        "Gamamatsu"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Quem matou os pais do Naruto?",
-      "description": "xiiiii",
+      "image": "https://media.giphy.com/media/sSX20fdie5EFW/giphy.gif",
+      "title": "Qual desses não é do clã Senju?",
+      "description": "HASHIRAAAAMAAAA!!!",
+      "answer": 2,
+      "alternatives": [
+        "Butsuma",
+        "Nawaki",
+        "Koichi",
+        "Tobirama",
+        "Touka"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/K4rDu65eHSsNO/giphy.gif",
+      "title": "Qual desses não foi revivido no edo tensei da Akatsuki?",
+      "description": "Edo tensei?",
+      "answer": 3,
+      "alternatives": [
+        "Kakuzu",
+        "Konan",
+        "Itachi",
+        "Kisame",
+        "Sasori"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/8qXJTU5oEhQZO/giphy.gif",
+      "title": "Qual a cor do Susanoo do Madara?",
+      "description": "Onde esta o Hashirama?!!",
+      "answer": 2,
+      "alternatives": [
+        "Roxo",
+        "Lilás",
+        "Azul",
+        "Vermelho"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/zAeYZ2PkUlX8c/giphy.gif",
+      "title": "Qual Membro da Akatsuki Foi Morto Por Tobi?",
+      "description": "...",
       "answer": 0,
       "alternatives": [
-        "Uchiha Madara",
-        "background: gradient(#e66465, #9198e5);"
+        "Konan",
+        "Pain",
+        "Nagato",
+        "Sasori"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/XFLSzB1E7gYdW/giphy.gif",
+      "title": "Quem protegeu a vila quando Madara fez Kurama atacar a folha?",
+      "description": "Quem foi salvou ein?",
+      "answer": 1,
+      "alternatives": [
+        "Naruto",
+        "Minato",
+        "Jiraya",
+        "Kakashi"
+      ]
+    },
+    {
+      "image": "https://i.pinimg.com/originals/97/9a/e5/979ae5c9488a97b92cdae3949dbd4ae0.png",
+      "title": "Qual nome do Chefe Sapo?",
+      "description": "Alguem vai para o Monte Myōboku?",
+      "answer": 0,
+      "alternatives": [
+        "Gamabunta",
+        "Gamaken",
+        "Gamauka",
+        "Guacamole"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/Wr8Salm7IwjQY/giphy.gif",
+      "title": "Quem é o sensei do Gaara?",
+      "description": "",
+      "answer": 3,
+      "alternatives": [
+        "Jiraya",
+        "Temari",
+        "Shukaku",
+        "Baki"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13X3PwsYFdlv68/giphy.gif",
+      "title": "Quem não faz parte da Família da Hinata?",
+      "description": "Naruto-kun!! >.<",
+      "answer": 2,
+      "alternatives": [
+        "Boruto",
+        "Hanabi",
+        "Hagoromo",
+        "Himawari"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/frDFCFK9S4oHm/giphy.gif",
+      "title": "Sasuke e Naruto são reencarnações do chakra de quem?",
+      "description": "Sim, eu sou muito mais fã do Naruto ",
+      "answer": 0,
+      "alternatives": [
+        "Indra e Ashura ",
+        "Ashura e Indra",
+        "Kaguya e Hagoromo",
+        "Minato e Kushina"
       ]
     }
   ],
