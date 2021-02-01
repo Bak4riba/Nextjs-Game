@@ -5,7 +5,6 @@ import db from '../db.json';
 import Widget from '../src/components/Widget';
 import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
-import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import Input from '../src/components/Input';
 import Button from '../src/components/Button';
@@ -52,10 +51,18 @@ export default function Home() {
           <Widget.Content>
             <h1>Quizes da Galera</h1>
 
-            <p>lorem ipsum dolor sit amet...</p>
+            <ul>
+              {db.external.map((linkExterno) => (
+                <li key={linkExterno}>
+                  <Widget.Topic href={linkExterno}>
+                    {linkExterno.split('https://github.com/')}
+                  </Widget.Topic>
+                </li>
+              ))}
+            </ul>
           </Widget.Content>
         </Widget>
-        <Footer />
+
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/omariosouto" />
     </QuizBackground>

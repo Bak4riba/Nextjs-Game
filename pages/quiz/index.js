@@ -2,13 +2,13 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
-import db from '../db.json';
-import Widget from '../src/components/Widget';
-import QuizLogo from '../src/components/QuizLogo';
-import QuizBackground from '../src/components/QuizBackground';
-import Button from '../src/components/Button';
-import QuizContainer from '../src/components/QuizContainer';
-import AlternativesForm from '../src/components/AlternativesForm';
+import db from '../../db.json';
+import Widget from '../../src/components/Widget';
+import QuizLogo from '../../src/components/QuizLogo';
+import QuizBackground from '../../src/components/QuizBackground';
+import Button from '../../src/components/Button';
+import QuizContainer from '../../src/components/QuizContainer';
+import AlternativesForm from '../../src/components/AlternativesForm';
 
 function ResultWidget({ results }) {
   return (
@@ -59,7 +59,11 @@ function LoadingWidget() {
       </Widget.Header>
 
       <Widget.Content>
-        [Desafio do Loading]
+        <h3>Estamos carregando as perguntas.... </h3>
+        <h3>Se prepare! :)</h3>
+        <br />
+        <br />
+        <img width="300px" alt="gif loading" src="https://media.giphy.com/media/eemPC4yhITcTm/giphy.gif" />
       </Widget.Content>
     </Widget>
   );
@@ -162,7 +166,7 @@ export default function QuizPage() {
   useEffect(() => {
     setTimeout(() => {
       setScreenState(screenStates.QUIZ);
-    }, 1 * 1000);
+    }, 1 * 1500);
   }, []);
 
   function handleSubmit() {

@@ -1,5 +1,6 @@
 {
-  "bg": "https://i.ibb.co/Kbs8FWV/konoha.jpg",
+  "bg":"https://i.ibb.co/1dhVn5W/konoha-house-shippuuden-naruto-scenery-home-9-As-W.jpg",
+  "bg2": "https://i.ibb.co/Kbs8FWV/konoha.jpg",
   "title": "Konoha Quiz",
   "description": "Testes seus conhecimentos e mostre que você é um verdadeiro cidadão de Konoha!",
   "questions": [
@@ -133,7 +134,7 @@
       ]
     }
   ],
-  "external": [""],
+  "external": ["https://github.com/alura-challenges/aluraquiz-base","https://github.com/alura-challenges/aluraquiz-base"],
   "theme": {
     "colors": {
       "primary": "#FB8C00",
