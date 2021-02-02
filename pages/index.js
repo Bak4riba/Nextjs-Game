@@ -26,8 +26,8 @@ export default function Home() {
         <QuizLogo />
         <Widget
           as={motion.section}
-          initial={{ y: -500 }}
-          animate={{ y: 0 }}
+          initial={{ x: -500 }}
+          animate={{ x: 0 }}
           transition={{ delay: 0.5, type: 'spring', stiffness: 50 }}
         >
           <Widget.Header>
@@ -55,8 +55,8 @@ export default function Home() {
 
         <Widget
           as={motion.section}
-          initial={{ y: +500 }}
-          animate={{ y: 0 }}
+          initial={{ x: -500 }}
+          animate={{ x: 0 }}
           transition={{ delay: 0.5, type: 'spring', stiffness: 50 }}
         >
           <Widget.Content>
