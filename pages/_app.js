@@ -38,7 +38,7 @@ export default function App({ Component, pageProps }) {
       <Head>
         {/* METATAGS */}
         {/* <!-- Primary Meta Tags --> */}
-        <title>Konoha Quiz!! Teste seus conhecimentos acerca de Naruto!!</title>
+        <title>Konoha Quiz</title>
         <meta name="title" content="Konoha Quiz!! Teste seus conhecimentos acerca de Naruto!!" />
         <meta
           name="description"
@@ -49,7 +49,7 @@ Quiz sobre o anime Naruto, desenvolvido na Imersão Alura - Next "
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://metatags.io/" />
-        <meta property="og:title" content="Konoha Quiz!!" />
+        <meta property="og:title" content="Konoha Quiz!! Teste seus conhecimentos acerca de Naruto!!" />
         <meta
           property="og:description"
           content="
