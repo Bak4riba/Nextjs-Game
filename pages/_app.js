@@ -47,14 +47,14 @@ export default function App({ Component, pageProps }) {
         <meta property="og:url" content="https://quiz-nextjs.bak4riba.vercel.app/" />
         <meta property="og:title" content="Konoha Quiz!" />
         <meta property="og:description" content="Quiz sobre o anime Naruto, desenvolvido na Imersão Alura - Next" />
-        <meta property="og:image" content="https://i.ibb.co/xgTNbBY/Captura-de-tela-de-2021-02-02-15-14-36.png" />
+        <meta property="og:image:secure" content="https://i.ibb.co/xgTNbBY/Captura-de-tela-de-2021-02-02-15-14-36.png" />
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://quiz-nextjs.bak4riba.vercel.app/" />
         <meta property="twitter:title" content="Konoha Quiz!" />
         <meta property="twitter:description" content="Quiz sobre o anime Naruto, desenvolvido na Imersão Alura - Next" />
-        <meta property="twitter:image" content="https://i.ibb.co/xgTNbBY/Captura-de-tela-de-2021-02-02-15-14-36.png" />
+        <meta property="twitter:image:secure" content="https://i.ibb.co/xgTNbBY/Captura-de-tela-de-2021-02-02-15-14-36.png" />
         {/* FIM METATAGS */}
         <link rel="icon" href="https://i.ibb.co/Nj5YSwt/android-chrome-192x192.png" type="image/png" sizes="16x16" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
