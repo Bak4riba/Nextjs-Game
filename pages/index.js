@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 import { useRouter } from 'next/router';
 
 import db from '../db.json';
@@ -23,7 +24,12 @@ export default function Home() {
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
         <QuizLogo />
-        <Widget>
+        <Widget
+          as={motion.section}
+          initial={{ y: -500 }}
+          animate={{ y: 0 }}
+          transition={{ delay: 0.5, type: 'spring', stiffness: 50 }}
+        >
           <Widget.Header>
             <h1>{db.title}</h1>
           </Widget.Header>
@@ -47,7 +53,12 @@ export default function Home() {
           </Widget.Content>
         </Widget>
 
-        <Widget>
+        <Widget
+          as={motion.section}
+          initial={{ y: +500 }}
+          animate={{ y: 0 }}
+          transition={{ delay: 0.5, type: 'spring', stiffness: 50 }}
+        >
           <Widget.Content>
             <h1>Quizes da Galera</h1>
 
@@ -64,7 +75,7 @@ export default function Home() {
         </Widget>
 
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/omariosouto" />
+      <GitHubCorner projectUrl="https://github.com/Bak4riba" />
     </QuizBackground>
   );
 }

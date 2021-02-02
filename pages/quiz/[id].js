@@ -19,6 +19,7 @@ export async function getServerSideProps() {
     throw new Error('Falha em pegar os dados');
   }).then((convert) => convert)
     .catch((err) => {
+      // eslint-disable-next-line no-console
       console.log(err);
     });
   return {
