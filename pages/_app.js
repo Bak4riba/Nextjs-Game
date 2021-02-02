@@ -49,7 +49,7 @@ Quiz sobre o anime Naruto, desenvolvido na Imersão Alura - Next "
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://metatags.io/" />
-        <meta property="og:title" content="Konoha Quiz!! Teste seus conhecimentos acerca de Naruto!!" />
+        <meta property="og:title" content="Konoha Quiz!!" />
         <meta
           property="og:description"
           content="
