@@ -1,19 +1,17 @@
 import React from 'react';
 
-export default function QuizDaGaleraPage() {
+export default function QuizDaGaleraPage(props) {
   return (
     <div>
       Desafio da próxima aula junto com as animações
+      <pre style={{ color: 'black' }}>
+        {JSON.stringify(props, null, 4)}
+      </pre>
     </div>
   );
 }
-/* export async function getServerSideProps(context) {
 
-  return {
-    props: '',
-  };
-} */
-export async function getServerSideProps(context) {
+export async function getServerSideProps() {
   const dbExterno = await fetch('https://quiz-nextjs.bak4riba.vercel.app/api/db').then((responseServer) => {
     if (responseServer.ok) {
       return responseServer.json();
@@ -23,8 +21,9 @@ export async function getServerSideProps(context) {
     .catch((err) => {
       console.log(err);
     });
-    console.log(dbExterno)
   return {
-    props: {}, // will be passed to the page component as props
+    props: {
+      dbExterno,
+    }, // will be passed to the page component as props
   };
 }
