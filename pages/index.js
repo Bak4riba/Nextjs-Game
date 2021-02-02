@@ -46,7 +46,12 @@ export default function Home() {
                 onChange={(e) => { setName(e.target.value); }}
                 value={name}
               />
-              <Button type="submit" disabled={name.length === 0}>
+              <Button
+                as={motion.button}
+                whileHover={{ scale: 1.1 }}
+                type="submit"
+                disabled={name.length === 0}
+              >
                 {`Jogar ${name}`}
               </Button>
             </form>
@@ -57,7 +62,7 @@ export default function Home() {
           as={motion.section}
           initial={{ x: -500 }}
           animate={{ x: 0 }}
-          transition={{ delay: 0.5, type: 'spring', stiffness: 50 }}
+          transition={{ delay: 1, type: 'spring', stiffness: 50 }}
         >
           <Widget.Content>
             <h1>Quizes da Galera</h1>
