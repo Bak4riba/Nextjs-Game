@@ -10,12 +10,6 @@ import GitHubCorner from '../src/components/GitHubCorner';
 import Input from '../src/components/Input';
 import Button from '../src/components/Button';
 import QuizContainer from '../src/components/QuizContainer';
-/* const BackgroundImage = styled.div`
-  background-image: url(${db.bg});
-  flex: 1;
-  background-size: cover;
-  background-position: center;
-`; */
 
 export default function Home() {
   const router = useRouter();
@@ -26,7 +20,7 @@ export default function Home() {
         <QuizLogo />
         <Widget
           as={motion.section}
-          initial={{ x: -500 }}
+          initial={{ x: -900 }}
           animate={{ x: 0 }}
           transition={{ delay: 0.5, type: 'spring', stiffness: 50 }}
         >
@@ -60,7 +54,7 @@ export default function Home() {
 
         <Widget
           as={motion.section}
-          initial={{ x: -500 }}
+          initial={{ x: -900 }}
           animate={{ x: 0 }}
           transition={{ delay: 1, type: 'spring', stiffness: 50 }}
         >
